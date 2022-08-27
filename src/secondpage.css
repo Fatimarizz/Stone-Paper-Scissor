@@ -1,0 +1,48 @@
+.Game--play {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+
+.game-play-main {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin: 5rem;
+}
+
+.User--choice {
+
+    padding-left: 4rem;
+}
+
+.computer--choice {
+
+    /* margin: 6rem; */
+}
+
+.house {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.playagain {
+    background-color: #fff;
+    color: var(--dark-text);
+    border-radius: 10px;
+    padding: 10px 40px;
+    cursor: pointer;
+    box-shadow: none;
+    transition: .2s;
+    margin:6rem
+
+}
+
+@media screen and (max-width: 720px) {
+    .playagain{
+    margin:1rem
+
+    }
+}
